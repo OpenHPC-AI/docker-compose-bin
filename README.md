@@ -16,6 +16,7 @@ If it's not present or you need to install it manually:
 sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
+
 **Enabling Docker Compose:**
 
 Docker Compose, when installed as a plugin, is inherently "enabled" as part of your Docker installation. There is no separate service to start or enable for Docker Compose itself. You use it directly via the docker compose command.
